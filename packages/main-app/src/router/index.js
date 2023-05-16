@@ -12,12 +12,12 @@ const routes = [
 	},
 	{
 		path: "/app/vue2-app/*",
-		name: "about",
+		name: "vue2-app-container",
 		component: () => import("../views/vue2-app-container")
 	},
 	{
 		path: "/app/vue3-app/*",
-		name: "about",
+		name: "vue3-app-container",
 		component: () => import("../views/vue3-app-container")
 	}
 ];
